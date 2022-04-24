@@ -26,19 +26,19 @@ const Hands = ({ setChoice }) => {
                 </div>
 
 
-                <div className={`${classes.icon} ${classes.paper}`} onClick={() => setChoice(0)}>
+                <div className={`${classes.icon} ${classes.paper}`} onClick={() => setChoice(2)}>
 
                     <Image src={paperImage} alt='paper image' layout='fixed' />
                 </div>
 
 
 
-                <div className={`${classes.icon} ${classes.lizard}`} onClick={() => setChoice(2)}>
+                <div className={`${classes.icon} ${classes.lizard}`} onClick={() => setChoice(3)}>
                     <Image src={lizardImage} alt='rock image' layout='fixed' />
 
                 </div>
 
-                <div className={`${classes.icon} ${classes.rock}`} onClick={() => setChoice(2)}>
+                <div className={`${classes.icon} ${classes.rock}`} onClick={() => setChoice(4)}>
                     <Image src={rockImage} alt='rock image' layout='fixed' />
 
                 </div>

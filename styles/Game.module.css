@@ -1,0 +1,128 @@
+.game {
+
+    width: 60%;
+    margin: 2rem auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.game>div {
+    flex: 1;
+}
+
+.game h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.pickedImageContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+    /* margin-right: 4rem;
+    margin: 0; */
+}
+
+
+
+
+
+.paper {
+    border: 15px solid var(--paper-gradient);
+
+
+
+}
+
+
+.scissors {
+
+    border: 15px solid var(--scissor-gradient);
+}
+
+
+
+
+.rock {
+
+    border: 15px solid var(--rock-gradient);
+
+}
+
+.spock {
+    border: 15px solid var(--spock-gradient);
+
+}
+
+
+
+.lizard {
+    border: 15px solid var(--lizard-gradient);
+
+}
+
+
+
+
+.spock:hover .scissors:hover,
+.paper:hover,
+.lizard:hover .rock:hover {
+    cursor: pointer;
+
+    transform: translate3d(0px, -8px, 0px);
+}
+
+.game .results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.results__heading {
+    font-size: 2.1rem;
+    margin-bottom: 3rem;
+    color: #fff
+}
+
+.game .results button {
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.game .results button:hover {
+    background-color: bisque;
+    transform: translate3d(0px, -2px, 0px);
+}
+
+@media screen and (max-width: 768px) {
+
+    .game {
+        width: 100%;
+        margin: 2rem 1rem;
+    }
+
+    .results {
+        margin: 1rem 4rem;
+    }
+
+}

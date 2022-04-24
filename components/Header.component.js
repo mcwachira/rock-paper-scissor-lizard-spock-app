@@ -1,7 +1,7 @@
 import classes from '../styles/Header.module.css'
 import Image from 'next/image'
 import { Fragment, useEffect } from 'react'
-import HeaderIcon from '../public/images/logo.svg'
+import HeaderIcon from '../public/images/logo-bonus.svg'
 
 const Header = ({ Score }) => {
     return (

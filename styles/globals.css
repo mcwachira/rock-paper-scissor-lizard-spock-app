@@ -7,7 +7,8 @@
   --scissor-gradient: hsl(39, 89%, 49%);
   --paper-gradient: hsl(230, 89%, 62%);
   --rock-gradient: hsl(349, 71%, 52%);
-
+  --lizard-gradient: hsl(261, 73%, 60%);
+  --spock-gradient: hsl(189, 59%, 53%);
   /* text colors */
 
   --dark-text: hsl(229, 25%, 31%);

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import classes from '../styles/Home.module.css'
 
 import Header from '../components/Header.component'
+import Hands from '../components/Hands.component'
 import Rules from '../components/Rules.component'
 export default function Home() {
   //added the score state so as to change the value of our score
@@ -20,7 +21,7 @@ export default function Home() {
       </Head>
       <Header Score={score} />
 
-
+      <Hands setChoice={(value) => setMyChoice(value)} />
 
 
       <footer className={classes.footer}>

@@ -125,4 +125,10 @@
         margin: 1rem 4rem;
     }
 
+    .results__heading {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        color: #fff
+    }
+
 }

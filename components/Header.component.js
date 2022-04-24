@@ -4,6 +4,10 @@ import { Fragment, useEffect } from 'react'
 import HeaderIcon from '../public/images/logo-bonus.svg'
 
 const Header = ({ Score }) => {
+
+    useEffect(() => {
+        localStorage.setItem('score', JSON.stringify(Score))
+    })
     return (
         <Fragment>
             <div className={classes.scoreBoard}>

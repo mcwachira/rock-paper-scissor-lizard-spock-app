@@ -18,7 +18,7 @@ const Rules = ({ open, setopen }) => {
                     </div>
 
                     <div className={classes.image}>
-                        <Image src='/images/image-rules-bonus.svg' alt='rules' layout='fill' />
+                        <Image src='/images/image-rules-bonus.svg' alt='rules' height='300' width='300' />
                     </div>
 
                 </div>
